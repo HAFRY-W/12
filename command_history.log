@@ -1,0 +1,79 @@
+2024-09-05 15:01:00.469 +0000 cheshev_nikita_igorevich: Сгенерирован новый UUID: Yx8F8fx5tcPaCjCPxkTI+mk2X7Kt4zHLm6OFlOIpe87q0UebrAsD1swJEsPwntZHuqKa5mLyM2jPkT2WKUyjoYzHq93+o5TU2OBus9zbOFvOuwX+w/n+lBGmwV8oHxUFbT0gYlifpEhE0tXTDNrIzkH7AGIbSm/qUmYxbythtQ/5Y7mAchsamvjHz4il6mXKE83wSZ0pygJzK/zk9W7c52X2xUlOsc1GnV3Yj8gw//lOi916jWr50yVlxZbavSyqhs0VJpCxYYVpch4R5MLhb1fEM01ZZmxi/M8BowtGDyIAP8cjjwDiK6Bwg3ftAsQEjpFAeIlqavRK1mmt5GWjmQ==
+2024-09-05 15:01:00.470 +0000 : Скрипт ЗАПУЩЕН. Ожидание новых команд...
+2024-09-05 15:01:16.680 +0000 cheshev_nikita_igorevich : ls
+2024-09-05 15:01:35.936 +0000 cheshev_nikita_igorevich : cd var
+2024-09-05 15:01:43.029 +0000 cheshev_nikita_igorevich : ls
+2024-09-05 15:02:54.121 +0000 cheshev_nikita_igorevich : sudo nano compiled_script.sh.x 
+2024-09-05 15:02:59.186 +0000 cheshev_nikita_igorevich : cd ..
+2024-09-05 15:03:00.200 +0000 cheshev_nikita_igorevich : ls
+2024-09-05 15:03:06.284 +0000 cheshev_nikita_igorevich : cd var
+2024-09-05 15:03:25.514 +0000 cheshev_nikita_igorevich : nohup sudo ./compiled_script.sh.x &
+2024-09-05 15:04:36.416 +0000 cheshev_nikita_igorevich : cd /1
+2024-09-05 15:04:41.496 +0000 cheshev_nikita_igorevich : cd 1
+2024-09-05 15:04:43.528 +0000 cheshev_nikita_igorevich : ls
+2024-09-05 15:05:05.862 +0000 cheshev_nikita_igorevich : sudo nano nohup.out
+2024-09-05 15:05:11.925 +0000 cheshev_nikita_igorevich : cd /home
+2024-09-05 15:05:19.038 +0000 cheshev_nikita_igorevich : ls
+2024-09-05 15:05:25.134 +0000 cheshev_nikita_igorevich : cd cheshev_nikita_igorevich/
+2024-09-05 15:05:27.151 +0000 cheshev_nikita_igorevich : cd cheshev_nikita_igorevich
+2024-09-05 15:05:31.201 +0000 cheshev_nikita_igorevich : cd /cheshev_nikita_igorevich
+2024-09-05 15:05:36.281 +0000 cheshev_nikita_igorevich : ls
+2024-09-05 15:05:47.431 +0000 cheshev_nikita_igorevich : cd /home
+2024-09-05 15:05:51.481 +0000 cheshev_nikita_igorevich : cd ..
+2024-09-05 15:06:17.883 +0000 cheshev_nikita_igorevich : cd var/log
+2024-09-05 15:06:22.991 +0000 cheshev_nikita_igorevich : ls
+2024-09-05 15:08:30.974 +0000 cheshev_nikita_igorevich : sudo nano command_history.log 
+2024-09-05 15:12:02.129 +0000 cheshev_nikita_igorevich : cd ~
+2024-09-05 15:12:05.201 +0000 cheshev_nikita_igorevich : ip a
+2024-09-05 15:12:43.798 +0000 cheshev_nikita_igorevich : cd /
+2024-09-05 15:13:37.617 +0000 cheshev_nikita_igorevich : cd etc/netplan/
+2024-09-05 15:13:39.646 +0000 cheshev_nikita_igorevich : ls
+2024-09-05 15:15:44.484 +0000 cheshev_nikita_igorevich : sudo nano 00-installer-config.yaml
+2024-09-05 15:15:48.544 +0000 cheshev_nikita_igorevich : ip a
+2024-09-05 15:20:40.219 +0000 cheshev_nikita_igorevich : sudo nano 00-installer-config.yaml
+2024-09-05 15:22:10.485 +0000 cheshev_nikita_igorevich : sudo netplan generate 
+2024-09-05 15:22:45.977 +0000 cheshev_nikita_igorevich : sudo nano 00-installer-config.yaml
+2024-09-05 15:22:48.024 +0000 cheshev_nikita_igorevich : sudo netplan generate 
+2024-09-05 15:24:00.022 +0000 cheshev_nikita_igorevich : sudo chmod 600 00-installer-config.yaml
+2024-09-05 15:24:03.071 +0000 cheshev_nikita_igorevich : sudo netplan generate 
+2024-09-05 15:24:11.183 +0000 cheshev_nikita_igorevich : sudo netplan apply
+2024-09-05 15:24:21.307 +0000 cheshev_nikita_igorevich : ip a
+2024-09-05 15:25:13.097 +0000 cheshev_nikita_igorevich : cd ~
+2024-09-05 15:25:43.516 +0000 cheshev_nikita_igorevich : sudo cat /proc/net/bonding/bond0
+2024-09-05 15:35:55.562 +0000 cheshev_nikita_igorevich : sudo apt install ethool
+2024-09-05 15:36:02.640 +0000 cheshev_nikita_igorevich : sudo apt install ethtool
+2024-09-05 15:37:02.589 +0000 cheshev_nikita_igorevich : sudo ethtool bond0
+2024-09-05 15:40:07.196 +0000 cheshev_nikita_igorevich : while sleep 1; do tput sc;tput cup 0 $(($(tput cols)-29));date;tput rc; done &
+2024-09-05 15:40:12.291 +0000 cheshev_nikita_igorevich : sudo ethtool bond0
+2024-09-05 15:41:22.158 +0000 cheshev_nikita_igorevich : sudo chmod 600 00-installer-config.yaml
+2024-09-05 15:41:49.561 +0000 cheshev_nikita_igorevich : sudo nano 00-installer-config.yaml
+2024-09-05 15:42:21.985 +0000 cheshev_nikita_igorevich : sudo nano /etc/netplan/00-installer-config.yaml
+2024-09-05 15:42:26.071 +0000 cheshev_nikita_igorevich : sudo ethtool bond0
+2024-09-05 15:43:13.588 +0000 cheshev_nikita_igorevich : Bmon
+2024-09-05 15:45:19.386 +0000 cheshev_nikita_igorevich : sudo apt-get install bmon
+2024-09-05 15:46:20.008 +0000 cheshev_nikita_igorevich : bmon
+2024-09-05 15:46:26.075 +0000 cheshev_nikita_igorevich : sudo ethtool bond0
+2024-09-05 15:48:25.348 +0000 cheshev_nikita_igorevich : bmon
+2024-09-05 15:48:29.385 +0000 cheshev_nikita_igorevich : sudo ethtool bond0
+2024-09-05 15:48:51.609 +0000 cheshev_nikita_igorevich : sudo cat /proc/net/bonding/bond0
+2024-09-05 15:52:15.777 +0000 cheshev_nikita_igorevich : bmon
+2024-09-05 15:55:39.933 +0000 cheshev_nikita_igorevich : ip a
+2024-09-05 16:17:40.709 +0000 cheshev_nikita_igorevich : sudo apt-get install git
+2024-09-05 16:18:56.803 +0000 cheshev_nikita_igorevich : git config --global user.name "HAFRY-W"
+2024-09-05 16:19:56.702 +0000 cheshev_nikita_igorevich : git config --global user.email "cheshevn@inbox.ru"
+2024-09-05 16:21:27.710 +0000 cheshev_nikita_igorevich : git clone https://github.com/HAFRY-W
+2024-09-05 16:22:27.283 +0000 cheshev_nikita_igorevich : git clone https://github.com/HAFRY-W/1
+2024-09-05 16:24:01.273 +0000 cheshev_nikita_igorevich : git clone https://github.com/HAFRY-W/12
+2024-09-05 16:24:39.670 +0000 cheshev_nikita_igorevich : ld
+2024-09-05 16:24:41.693 +0000 cheshev_nikita_igorevich : ls
+2024-09-05 16:24:45.749 +0000 cheshev_nikita_igorevich : cd 12
+2024-09-05 16:25:37.281 +0000 cheshev_nikita_igorevich : cd /
+2024-09-05 16:25:49.426 +0000 cheshev_nikita_igorevich : cd var
+2024-09-05 16:25:51.445 +0000 cheshev_nikita_igorevich : ls
+2024-09-05 16:25:57.528 +0000 cheshev_nikita_igorevich : cd log
+2024-09-05 16:25:59.548 +0000 cheshev_nikita_igorevich : ls
+2024-09-05 16:26:24.811 +0000 cheshev_nikita_igorevich : cd /12
+2024-09-05 16:26:27.842 +0000 cheshev_nikita_igorevich : cd ~/12
+2024-09-05 16:29:38.928 +0000 cheshev_nikita_igorevich : sudo cp /var/log/command_history.log 
+2024-09-05 16:29:58.156 +0000 cheshev_nikita_igorevich : sudo cp //var/log/command_history.log 
+2024-09-05 16:31:22.167 +0000 cheshev_nikita_igorevich : sudo cp //var/log/command_history.log  .
